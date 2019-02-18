@@ -1,8 +1,13 @@
 /* body */
 
 body {
+   width: 100%;
    font-size: 13px; 
    font-family: arial, sans-serif;
+    }
+
+#prime {
+   max-width: 90%;
     }
 
 /* links */
@@ -19,18 +24,20 @@ a.nav:hover {
 /* Top Nav Bar */
 
 #tlnav {
+    float: left;
     margin: 7px 0 0 10px;
     } 
 
 #trnav {
+    float: right;
     margin: 7px 0 0 10px;
     justify-content: flex-end;
     }
 
 #tnav {
-   display: flex;
+/*   display: flex;
    justify-content: space-between;
-   flex-direction: row;
+   flex-direction: row; */
    line-height: 28px;
     }
 
