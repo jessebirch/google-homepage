@@ -18,7 +18,19 @@ a.nav:hover {
 
 /* Top Nav Bar */
 
+#tlnav {
+    margin: 7px 0 0 10px;
+    } 
+
+#trnav {
+    margin: 7px 0 0 10px;
+    justify-content: flex-end;
+    }
+
 #tnav {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
    line-height: 28px;
     }
 
@@ -35,7 +47,25 @@ a.nav:hover {
    cursor: default;
     }
 
-/* Search Buttons */
+/* Logo */
+
+#soup {
+    height: 233px;
+    margin-top: 89px;
+    }
+#soup img{
+   padding-top: 109px; 
+   }
+
+/* Search */
+
+#searchfield {
+    }
+
+#searchbuttons {
+    padding-top: 18px;
+    top: 53px;
+    }
 
 input[type="submit"] {
   height: 36px;
