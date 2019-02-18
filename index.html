@@ -3,25 +3,20 @@
 
 <head>
     <title>Not Google Search</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
 <!--Top Nav Bar-->
-    <div class="topnav">
-        <div class="tlnav">
-            <a href="#">About</a>
-            <a href="#">Store</a>
-        </div>
-        <div class="trnav">
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <div class="menu">
-            <a href="#">Menu</a>
-            </div>
-            <div class="signin">
-            <a href="#">Sign in</a>
-            </div>
+    <div class="nav">
+        <div class="nav">
+            <a href="#" class="nav">About</a>
+            <a href="#" class="nav">Store</a>
+            <a href="#" class="nav">Gmail</a>
+            <a href="#" class="nav">Images</a>
+            <a href="#" class="nav" id="menu" class="nav">Menu</a>
+            <a href="#" class="nav" id="signin" class="nav">Sign in</a>
         </div>
     </div>
 
@@ -33,29 +28,23 @@
 <!--Search Field & Two Buttons-->
     <div class="search">
         <form action="#" method="get">
-            <div id="magicbox">
+            <div class="searchfield">
                 <input type="search" id="searchbox" name="search">
             </div>
-            <div id="noluck">
-                <input type="button" value="Google Search" name="search">
-            </div>
-            <div id="lucky">
-                <input type="button" value="I'm Feeling Lucky" name="search">
+            <div class="searchbuttons">
+                <input type="submit" value="Google Search" name="search" class="buttons">
+                <input type="submit" value="I'm Feeling Lucky" name="search" class="buttons">
             </div>
         </form>
     </div>
 
 <!--Footer-->
-    <div class="footybar">
-        <div class="blfoot">
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-        </div>
-        <div class="brfoot">
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
-        </div>
+    <div class="bnav">
+            <a href="#" class="nav">Advertising</a>
+            <a href="#" class="nav">Business</a>
+            <a href="#" class="nav">Privacy</a>
+            <a href="#" class="nav">Terms</a>
+            <a href="#" class="nav">Settings</a>
     </div>
 
 </body>

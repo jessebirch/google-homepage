@@ -1,12 +1,62 @@
+/* body */
 
-/* Body */
+body {
+   font-size: 13px; 
+   font-family: arial, sans-serif;
+    }
 
-a {
-    
+/* links */
+
+a.nav {
+   color: #000000;
+   opacity: 0.75;
+   text-decoration: none; 
+    }
+a.nav:hover {
+    text-decoration: underline;
     }
 
 /* Top Nav Bar */
 
-.topnav {
-    
+#signin {
+   opacity: 1;
+   color: #ffffff; 
+   line-height: 28px;
+   padding: 0 12px;
+   font-weight: bold;
+   background: #4285f4; 
+   border-radius: 2px;
+    }
+
+/* Search Buttons */
+
+input.buttons {
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  height: 36px;
+  line-height: 27px;
+  opacity: 0.75;
+    }
+
+input[type="submit"]:hover {
+   color: #000;
+   opacity: 1;
+   background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+   background-image: -moz-linear-gradient(top, #f8f8f8, #f1f1f1);
+   background-color: #f8f8f8;
+   border: 1px solid #c6c6c6;
+   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    }   
+
+input[type="submit"]:focus {
+   border: 1px solid #4d90fe;
+   outline: none;
     }
