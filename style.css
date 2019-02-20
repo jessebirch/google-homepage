@@ -1,13 +1,14 @@
 /* body */
 
 body {
-   width: 100%;
+   max-width: 100%;
    font-size: 13px; 
    font-family: arial, sans-serif;
     }
 
 #prime {
-   max-width: 90%;
+   max-width: 100%;
+   min-width: 60%;
     }
 
 /* links */
@@ -35,9 +36,9 @@ a.nav:hover {
     }
 
 #tnav {
-/*   display: flex;
+   display: flex;
    justify-content: space-between;
-   flex-direction: row; */
+   flex-direction: row;
    line-height: 28px;
     }
 
@@ -54,19 +55,31 @@ a.nav:hover {
    cursor: default;
     }
 
-/* Logo */
+/* Middle */
+
+#prime {
+    }
 
 #soup {
+    width: 50%;
+    margin: 0 auto;
     height: 233px;
     margin-top: 89px;
     }
 #soup img{
+   text-align: center;
    padding-top: 109px; 
    }
 
 /* Search */
 
-#searchfield {
+#mid {
+    text-align: center;
+    }
+
+#search {
+    width: 50%;
+    margin: 0 auto;
     }
 
 #searchbuttons {
