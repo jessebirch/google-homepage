@@ -38,10 +38,18 @@ a.nav:hover {
     margin: 7px 0 0 10px;
     } 
 
+#tlnav .nav {
+    padding-left: 15px;
+    }
+
 #trnav {
     float: right;
-    margin: 7px 0 0 10px;
+    margin: 7px 10px 0 0;
     justify-content: flex-end;
+    }
+
+#trnav .nav {
+   padding-right: 15px; 
     }
 
 #tnav {
@@ -81,14 +89,23 @@ a.nav:hover {
    }
 
 /* Search */
-
-#mid {
-    text-align: center;
-    }
-
 #search {
     width: 50%;
     margin: 0 auto;
+    }
+
+input[type="search"] {
+        width: 584px;
+        height: 50px;
+    }
+
+input[type="search"]:hover {
+       box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08);
+    } 
+        
+
+#mid {
+    text-align: center;
     }
 
 #searchbuttons {
@@ -119,6 +136,7 @@ input[type="submit"]:hover {
    color: #000;
    opacity: 1;
    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+   background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
    background-image: -moz-linear-gradient(top, #f8f8f8, #f1f1f1);
    background-color: #f8f8f8;
    border: 1px solid #c6c6c6;
@@ -150,7 +168,15 @@ input[type="submit"]:focus {
     margin: 7px 0 0 10px;
 }
 
+#lbnav .nav {
+    padding-right: 15px;
+    }
+
 #rbnav {
     float: right;
-    margin: 7px 0 0 10px;
+    margin: 7px 10px 0 0;
 }
+
+#rbnav .nav {
+    padding-left: 15px;
+    }
